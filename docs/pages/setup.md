@@ -52,9 +52,7 @@ wget -qO- https://lepsta.tech/get | sh
 
 #### Windows
 
-!!! warning "Windows version  firewall issue"
-        Windows users are able to install and use Uju but they will quickly experience firewall issues. 
-        Please refer to [known issues](/pages/lepsta/windows-firewall).
+We have a new windows version.
 
 ## Download Uju Locally
 For you to start working on your Lepsta repositories Uju needs to have access to your Lepsta Platform account. To authorize Uju, you need to login from the commandline interface. Simply run the following command, and you are good to go:

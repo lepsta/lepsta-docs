@@ -11,6 +11,7 @@ nav:
     - How streams work: pages/quick-start/how-streams-works.md
   - Guides:
     - Create a branch: pages/guides/create-a-branch.md
+    - Create and Mount a repo: pages/guides/create-and-mount-repo.md
     - Create a workspace: pages/guides/create-a-workspace.md
     - Manage Repositories: pages/guides/manage-repositories.md
     - Manage Streams: pages/guides/manage-streams.md
