@@ -41,7 +41,7 @@ To resolve this, user needs to run Uju command to bootup Uju service by running 
 - **Replication Issue**
 When this encountered, there are few options of what to do to allow Uju to "self-heal", as Uju is a very resillient and reliable, this afford it to be able to fix itself.
 
-### Here are the possible options of how to fix it.
+## Here are the possible options of how to fix it.
     - **Force pushing** the current changes on the active [stream](...), this will prompt Uju to force replication of the active changes on the client's (i.e user's device) to the server.
 
     - **Repository refresh** this process, makes a quick backup to preserve the current changes on the active stream and redownloads the repository and attach the backed up changes, on the stream back thereby, resuming replication of changes from the stream.
