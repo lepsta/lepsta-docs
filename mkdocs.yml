@@ -14,8 +14,8 @@ nav:
     - Create and Mount a repo: pages/guides/create-and-mount-repo.md
     - Create a workspace: pages/guides/create-a-workspace.md
     - Manage Repositories: pages/guides/manage-repositories.md
-    - Working with streams : pages/guides/working-with-streams.md
     - Manage Streams: pages/guides/manage-streams.md
+    - How to install Uju: pages/guides/install-uju.md
   - Troubleshooting:
     - Troubleshoot: pages/troubleshooting/index.md
     - How to fix a repository that goes offline: pages/troubleshooting/how-to-fix-a-repository-that-suddenly-goes-offline.md
