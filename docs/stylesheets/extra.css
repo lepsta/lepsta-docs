@@ -1,8 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 :root {
-    --md-primary-fg-color:        #233150;
-    --md-primary-fg-color--light: #31aa98;
-    --md-primary-fg-color--dark:  #1f2b47;
-    --md-accent-fg-color: #31aa98;
+  --md-primary-fg-color: #233150;
+  --md-primary-fg-color--light: #31aa98;
+  --md-primary-fg-color--dark: #1f2b47;
+  --md-accent-fg-color: #31aa98;
+}
+
+[data-md-color-scheme="light"] {
+  --md-primary-fg-color: #27344e;
+  --md-primary-fg-color--light: #b0b5bf;
+  --md-primary-fg-color--dark: #222e45;
+
+
+}
+
+[data-md-color-scheme="dark"] {
+  --md-primary-fg-color: #27344e;
+  --md-primary-fg-color--light: #b0b5bf;
+  --md-primary-fg-color--dark: #222e45;
+
+  --md-default-bg-color: #111827;
+  --md-default-fg-color--light: #787d8a;
+
+  --md-typeset-color: #d2d5dd;
+  --md-typeset-a-color: #65e4d1;
+
+  --md-code-fg-color: #b5b9c2;
+  --md-code-bg-color: #000000;
+
+  --md-admonition-fg-color: #eef0f5;
+  --md-admonition-bg-color: #27344e;
 }
 
 /* .md-header {
@@ -10,31 +38,45 @@
 } */
 
 .md-tabs {
-    color: var(--md-primary-bg-color);
-    background-color: var(--md-primary-fg-color--dark);
+  color: var(--md-primary-bg-color);
+  background-color: var(--md-primary-fg-color--dark);
 }
 
 .md-content img {
-    border-radius: 4px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-weight: 600 !important;
+  letter-spacing: 0.3em !important;
+  font-family: 'DM Serif Display', serif;
+}
+
+h2 {
+  font-weight: 600 !important;
 }
 
 :root {
-    --md-admonition-icon--stream: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="text-link dark:text-aquamarine -ml-0.5 mr-2 h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>')
-    
+  --md-admonition-icon--stream: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="text-link dark:text-aquamarine -ml-0.5 mr-2 h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>')
 }
-  .md-typeset .stream > .admonition-title,
-  .md-typeset .stream > summary {
-    background-color: #b7f0e7;
+
+.md-typeset .stream>.admonition-title,
+.md-typeset .stream>summary {
+  background-color: #b7f0e7;
 }
-  .md-typeset .stream > .admonition-title::before,
-  .md-typeset .stream > summary::before {
-    background-color: #3D8994;
-    -webkit-mask-image: var(--md-admonition-icon--stream);
-            mask-image: var(--md-admonition-icon--stream);
+
+.md-typeset .stream>.admonition-title::before,
+.md-typeset .stream>summary::before {
+  background-color: #3D8994;
+  -webkit-mask-image: var(--md-admonition-icon--stream);
+  mask-image: var(--md-admonition-icon--stream);
 }
+
 .md-typeset .admonition.stream,
 .md-typeset details.stream {
   border-color: #31aa98;
 }
-  
 
+.md-typeset a {
+  text-decoration: underline;
+}

@@ -1,4 +1,4 @@
-site_name: Lepsta Docs
+site_name: Lepsta Documentation
 
 # Page tree
 nav:
@@ -15,36 +15,44 @@ nav:
     - Create a workspace: pages/guides/create-a-workspace.md
     - Manage Repositories: pages/guides/manage-repositories.md
     - Manage Streams: pages/guides/manage-streams.md
-  - Uju:
-    - What is Uju?: pages/uju/what-is-uju.md
-    - CLI: 
-      - uju: pages/uju/cli/uju.md
-      - uju apply: pages/uju/cli/uju_apply.md
-      - uju cat: pages/uju/cli/uju_cat.md
-      - uju changes: pages/uju/cli/uju_changes.md
-      - uju commit: pages/uju/cli/uju_commit.md
-      - uju config: pages/uju/cli/uju_config.md
-      - uju diff: pages/uju/cli/uju_diff.md
-      - uju discard: pages/uju/cli/uju_discard.md
-      - uju download: pages/uju/cli/uju_download.md
-      - uju export: pages/uju/cli/uju_export.md
-      - uju init: pages/uju/cli/uju_init.md
-      - uju log: pages/uju/cli/uju_log.md
-      - uju login: pages/uju/cli/uju_login.md
-      - uju logout: pages/uju/cli/uju_logout.md
-      - uju ls: pages/uju/cli/uju_ls.md
-      - uju merge: pages/uju/cli/uju_merge.md
-      - uju repo: pages/uju/cli/uju_repo.md
-      - uju repos: pages/uju/cli/uju_repos.md
-      - uju rm: pages/uju/cli/uju_rm.md
-      - uju state: pages/uju/cli/uju_state.md
-      - uju states: pages/uju/cli/uju_states.md
-      - uju stats: pages/uju/cli/uju_stats.md
-      - uju switch: pages/uju/cli/uju_switch.md
-      - uju system: pages/uju/cli/uju_system.md
-      - uju token: pages/uju/cli/uju_token.md
-      - uju update: pages/uju/cli/uju_update.md
-      - uju validate: pages/uju/cli/uju_validate.md
+  - Reference:
+    - Core concepts:
+      - Repository: pages/references/concepts/repository.md
+      - Branch: pages/references/concepts/branch.md
+      - Stream: pages/references/concepts/stream.md
+      - Revision: pages/references/concepts/revision.md
+      - Commit: pages/references/concepts/commit.md
+      - Changeset: pages/references/concepts/changeset.md
+    - Uju:
+      - What is Uju?: pages/uju/what-is-uju.md
+      - CLI: 
+        - uju: pages/uju/cli/uju.md
+        - uju apply: pages/uju/cli/uju_apply.md
+        - uju cat: pages/uju/cli/uju_cat.md
+        - uju changes: pages/uju/cli/uju_changes.md
+        - uju commit: pages/uju/cli/uju_commit.md
+        - uju config: pages/uju/cli/uju_config.md
+        - uju diff: pages/uju/cli/uju_diff.md
+        - uju discard: pages/uju/cli/uju_discard.md
+        - uju download: pages/uju/cli/uju_download.md
+        - uju export: pages/uju/cli/uju_export.md
+        - uju init: pages/uju/cli/uju_init.md
+        - uju log: pages/uju/cli/uju_log.md
+        - uju login: pages/uju/cli/uju_login.md
+        - uju logout: pages/uju/cli/uju_logout.md
+        - uju ls: pages/uju/cli/uju_ls.md
+        - uju merge: pages/uju/cli/uju_merge.md
+        - uju repo: pages/uju/cli/uju_repo.md
+        - uju repos: pages/uju/cli/uju_repos.md
+        - uju rm: pages/uju/cli/uju_rm.md
+        - uju state: pages/uju/cli/uju_state.md
+        - uju states: pages/uju/cli/uju_states.md
+        - uju stats: pages/uju/cli/uju_stats.md
+        - uju switch: pages/uju/cli/uju_switch.md
+        - uju system: pages/uju/cli/uju_system.md
+        - uju token: pages/uju/cli/uju_token.md
+        - uju update: pages/uju/cli/uju_update.md
+        - uju validate: pages/uju/cli/uju_validate.md
   - Known issues:
       - This repo is in an inconsistent state: pages/issues/error-this-repo-is-in-an-inconsistent-state.md
       - Changes not showing on the platform: pages/issues/error-changes-not-showing-on-the-platform.md
@@ -61,7 +69,22 @@ theme:
     - navigation.tabs
     - navigation.instant
   palette:
-    scheme: preference
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: light
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: dark
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Lato
+    code: Lato Mono
 extra:
   social:
     - icon: fontawesome/brands/twitter
@@ -72,18 +95,21 @@ extra:
       link: https://linkedin.com/company/lepsta
 extra_css:
   - stylesheets/extra.css
-google_analytics:
-  - UA-49518961-4
-  - auto
 markdown_extensions:
   - meta
   - toc:
       permalink: true
   - admonition
-  - pymdownx.superfences
+  - footnotes
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed
   - pymdownx.mark
   - pymdownx.snippets
+  - attr_list
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.tasklist:
