@@ -1,25 +1,25 @@
 # How to create and activate your Lepsta account
 
-### Introduction
+## Introduction
 This guide contains instruction outlined to successfully create and activate your Lepsta account.
 
 
-### Outline of the objective of the article
+## Outline of the objective of the article
 
-### Requirements
-  + A device.
+## Requirements
+  + A laptop/desktop device.
   + Email address
   + Internet access
   
  
-### Brief definition of important concepts
-+ How Lepsta works
+## Brief definition of important concepts
++ [How Lepsta works](/pages/lepsta/how-lepsta-works)
 
  
 
-### Guide (step-by-step)
+## Guide (step-by-step)
  * To create a new account, head on to <a href="https://app.lepsta.com/auth/signup" target="_blank">lepsta.com</a>.
- * Alternatively, Lepsta lets you setup your account using third party authentication providers like Google, GitHub and Bitbucket.
+ 
 
 To ensure that you have captured your details correctly, you will be asked to verify your email address after signing up for a new account. Please check your email, also check your spam box if it doesnt appear on your primary inbox.
 

@@ -16,7 +16,11 @@ nav:
       - Create and activate Lepsta: pages/guides/create-and-activate-lepsta.md
       - Manage Repositories: pages/guides/manage-repositories.md
       - Manage Streams: pages/guides/manage-streams.md
+      - Working with Streams: pages/guides/working-with-streams.md
       - How to install Uju: pages/guides/install-uju.md
+  - Tutorials:
+      - Get started: pages/tutorials/get_started.md
+      - Integrate Lepsta: pages/tutorials/integrate_lepsta.md
   - Reference:
       - Core concepts:
           - Repository: pages/references/concepts/repository.md

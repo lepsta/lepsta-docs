@@ -46,7 +46,7 @@ Now that we understand what Uju is and what requirements we need, you can go ahe
 
 
 
-#### Windows
+### Windows
 
 Download the setup file and click on it to install.
         
@@ -61,12 +61,12 @@ OR
 
 Enter your username after promted by uju;
 
-
+![Install Uju](https://static.lepsta.tech/docs-assets/install-to-uju.gif "Install Uju")
  
 If you have reached this point, you have successfully created a new repository. 
 If that is not the case, see …. For troubleshooting
 
 
 ## Recommended next steps
-Working with streams
+[Working with streams](pages/guides/working-with-streams.md)
 

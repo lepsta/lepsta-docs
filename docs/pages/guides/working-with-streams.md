@@ -18,9 +18,9 @@ The objective of this article is to help the user understand how stream works.
   + Basic Knowledge of the command line.
  
 
-## Brief definition of important concepts (linking them to the reference section)
-[Repository](docs/pages/references/concepts/repository.md).
-[Stream] (docs/pages/references/concepts/streams.md)
+## Brief definition of important concepts
+* [Repository](docs/pages/references/concepts/repository.md).
+* [Stream](docs/pages/references/concepts/stream.md).
  
 
 ## Guide (step-by-step)
@@ -39,6 +39,8 @@ The objective of this article is to help the user understand how stream works.
 2.  Give your stream a name and provide more description about what the stream is about.
 3.  Assign your stream to a team member or yourself.
 4. Allocate your stream to a repo.
+
+![Create a new stream](https://static.lepsta.tech/docs-assets/creating-a-new-stream.png "create a new stream")
 
 
 
@@ -74,6 +76,8 @@ Streams completed done are moved to this status and no further work needs to be 
 Code in this stream must be committed before the status can change to done.
 ```
 
+![Stream Block](https://static.lepsta.tech/docs-assets/stream-block.png "Stream Block")
+
 
 !!! Stream "Moving a Stream"
 * Streams can be moved / updated to different statuses depending on the amount of work done. 
@@ -95,6 +99,3 @@ Code in this stream must be committed before the status can change to done.
 ## Recommended next steps
 
 If you have reached this point, you have successfully worked with a stream. 
-If that is not the case, see …. For troubleshooting
-
-Next steps, see how to commit a stream.....
