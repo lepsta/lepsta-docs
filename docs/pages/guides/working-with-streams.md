@@ -1,69 +1,43 @@
 # How to work with streams
 
 ## Introduction
-This guide contains instructions outlined to successfully work with streams on the Lepsta platform.
-
-Streams look like tasks but they are more than that. They are type of tasks that stream your work in real time as you contribute. When you make code changes locally they get channelled through a stream.
-
-
-## Outline of the objective of the article
-The objective of this article is to help the user understand how stream works.
-
-
-!!! note "streams are for everyone"
-    Everyone can manage their work here including non-techinical people. Coding streams will be linked to a repository while other streams can be treated as normal tasks. This is will help teams to organise work using on central tool.
+A stream is a replicated sandbox that can contain file changes and other related information. Just like a branch, a stream in the repository is represented as a reference that points at a specific revision in the repository. [Learn more](docs/pages/references/concepts/stream.md)...
 
 ## Requirements
   + A Lepsta account.
   + Basic Knowledge of the command line.
  
 
-## Brief definition of important concepts
+## Concepts
 * [Repository](docs/pages/references/concepts/repository.md).
 * [Stream](docs/pages/references/concepts/stream.md).
  
 
 ## Guide (step-by-step)
-  * Create a new stream
-  * Stream status
-  * Moving a stream
-  * Renaming a stream
-  * Deleting a stream
 
-
-
-!!! Stream "Create a new stream"
-  To create a new stream, navigate to the ``work`` tab, this is where the whole team can organise the work they intend to do. 
-
-1.  Click the ``New Stream`` button to add your first stream.
-2.  Give your stream a name and provide more description about what the stream is about.
-3.  Assign your stream to a team member or yourself.
-4. Allocate your stream to a repo.
+### Create a stream
+1.  To create a new stream, navigate to the `work` tab, this is where the whole team can organise the work they intend to do. 
+2.  Click the `New Stream` button to add your first stream.
+3.  Give your stream a name and provide more description about what the stream is about.
+4.  Assign your stream to a team member or yourself.
+5. Allocate your stream to a repo.
 
 ![Create a new stream](https://static.lepsta.tech/docs-assets/creating-a-new-stream.png "create a new stream")
 
 
-
-
-!!! Stream "Stream Status"
-  You will notice that your first repository has the "Created" status. When you are ready to start working you can change the status of the task accordingly.
-
-  There are four stream status
-
-    1. Created
-    2. Started
-    3. Review
-    4. Done
-
-
+### Stream stream status
+ When you are ready to start working you can change the status to one of the following:
  
 ```title="Created"
-Streams newly created are in this category
-They may be assigned or not.
+Newly created streams  are organised under the this status.
 ```
 
-```title="Started"
-To start working on a stream, it must be moved to started or start coding.
+```title="Mark started"
+This status is mainly for non coding tasks. You can use these status for tasks such as design and research tasks
+```
+
+```title="Start coding"
+When you select this option it means you want to write code, therefore, ensure that you have attached a repository.
 ```
 
 ```title="Review"
@@ -72,24 +46,18 @@ with the intention of instituting change if necessary.
 ```
 
 ```title="Done"
-Streams completed done are moved to this status and no further work needs to be done.
-Code in this stream must be committed before the status can change to done.
+Changing the status to done it means your work has been reviewed and you are happy mark it as completed. Coding streams will be automatically moved here when the stream is closed and commited. 
 ```
 
 ![Stream Block](https://static.lepsta.tech/docs-assets/stream-block.png "Stream Block")
 
 
-!!! Stream "Moving a Stream"
-* Streams can be moved / updated to different statuses depending on the amount of work done. 
-* Streams can also be moved into collections. To learn more about this.......
-
-
-!!! Stream "Renaming a Stream"
+## Renaming a Stream
 * Open the stream by clicking on it. 
 * On the title, place the mouse by clicking on it and rename to desired name.
 
 
-!!! Stream "Deleting a Stream"
+## Deleting a Stream
 * Open the stream by clicking on it. 
 * On the right hand corner where the title is, locate a red delete icon.
 * Click on it. An alert box appears `Are you sure, you want to delete this Stream ?`.

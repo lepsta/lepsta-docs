@@ -1,3 +1,6 @@
+**I think we should exclude this as its covered on the tutorial**
+
+
 # Setup
 This guide will walk you through how to setup a Lepsta account which you will use to import or create repositories and to collaborate with others.
 

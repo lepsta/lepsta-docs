@@ -1,38 +1,33 @@
 # How to create and activate your Lepsta account
 
 ## Introduction
-This guide contains instruction outlined to successfully create and activate your Lepsta account.
-
-
-## Outline of the objective of the article
+Welcome! if you are reading this it means you want to signup to use the Lepsta Platform for the first time. This guide contains instructions outlined to successfully create and activate your Lepsta account.
 
 ## Requirements
-  + A laptop/desktop device.
-  + Email address
-  + Internet access
+  + A laptop/desktop device running Linux OS, macOS or Windows OS,
+  + A valid email address,
+  + And a decent Internet connection.
   
  
 ## Brief definition of important concepts
-+ [How Lepsta works](/pages/lepsta/how-lepsta-works)
++ [How Lepsta works](/pages/lepsta/how-lepsta-works.md)
 
- 
-
-## Guide (step-by-step)
- * To create a new account, head on to <a href="https://app.lepsta.com/auth/signup" target="_blank">lepsta.com</a>.
- 
-
-To ensure that you have captured your details correctly, you will be asked to verify your email address after signing up for a new account. Please check your email, also check your spam box if it doesnt appear on your primary inbox.
+## Step-by-step Guide
+1.  To create a new account, head on to <a href="https://app.lepsta.com/auth/signup" target="_blank">lepsta.com</a>.
 
 !!! note "Note"
-    Authorising your development computers to access your Lepsta Platform account still requires that you set up a password. So, even if you sign up with an OAuth service provider, you will be asked to set up a password, even though this might change in the future.
+  Currently new users have to request for early access in order to use the Platform. We deliberately throttle the number of users we accept, therefore, we will manually grant you access upon signup. Email info@lepsta.com for queries.
 
+2. Provide the information as requested by the form
+3. You will receive an email (please check your spam box as well) to validate your details
+4. Once you have clicked the link on your email you will be lead to the Lepsta community website. Please note that this is the community platform for Lepsta events. To get access to the main platform a team member at Lepsta will grant you access manually.
+5. Once you receive communication that your account is ready you can login.
 
-
-Congratulations, you have successfully created a new Lepsta account. 
-If that is not the case, see …. For troubleshooting
+## Reflection
+If you were able to login to the platform it means your account was created successfully. Lets see what you can do next...
 
 
 ## Recommended next steps
-* Create a new repository
-* Create a team workspace
+Now that you have created your Lepsta account, it is best to learn how to use it by going through the ![getting started tutoria](docs/pages/tutorials/get_started.md)
+
 

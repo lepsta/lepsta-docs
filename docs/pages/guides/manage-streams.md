@@ -1,101 +1,25 @@
-<<<<<<<<< LE0001-setup-the-environmen
-# Manage streams
-Streams look like tasks but they are more than that. They are type of tasks that stream your work in real time as you contribute. When you make code changes locally they get channelled through a stream.
+**seems to be a duplicate of working with streams.md**
 
-[Learn more about how streams work.](/pages/quick-start/how-streams-works)
+
+# Manage streams
+
+## Introduction
+A stream is a replicated sandbox that can contain file changes and other related information. Just like a branch, a stream in the repository is represented as a reference that points at a specific revision in the repository. [Learn more](docs/pages/references/concepts/stream.md)...
 
 ## Create a new stream
 To create a new stream, navigate to the ``work`` tab, this is where the whole team can organise the work they intend to do. 
 
-1.  Click the ``New Stream`` button to add your first stream.
-2.  Give your stream a name and provide more description about what the stream is about.
+1.  Click the ``New Stream`` button to add your first stream
+2.  Give your stream a name and provide more description about what the stream is about and click `Add stream`
 
-
-![Create a stream](/assets/images/create-new-stream.gif "new stream")
-
-!!! note "streams are for everyone"
-    Everyone can manage their work here including non-techinical people. Coding streams will be linked to a repository while and other streams can be treated as normal tasks. This is will help teams to organise work using on central tool.
-
-You will notice that your first repository has the "Created" status. When you are ready to start working you can change the status of the task accordingly.
-
-![Stream list](/assets/images/stream-list.jpg "stream list")
-
-
-!!! stream "Your first stream"
-
-  === "Create your first stream"
-
-      ``` markdown title="List, unordered"
-      * Sed sagittis eleifend rutrum
-      * Donec vitae suscipit est
-      * Nulla tempor lobortis orci
-      ```
-
-  === "Assign a repo to a stream"
-
-      ``` markdown title="List, ordered"
-      1. Sed sagittis eleifend rutrum
-      2. Donec vitae suscipit est
-      3. Nulla tempor lobortis orci
-      ```
-
-  === "Assign a stream to a team member"
-
-      ``` markdown title="List, ordered"
-      1. Sed sagittis eleifend rutrum
-      2. Donec vitae suscipit est
-      3. Nulla tempor lobortis orci
-      ```
-
-      ```
-=========
-# Manage streams
-Streams look like tasks but they are more than that. They are type of tasks that stream your work in real time as you contribute. When you make code changes locally they get channelled through a stream.
-
-[Learn more about how streams work.](/pages/quick-start/how-streams-works)
-
-## Create a new stream
-To create a new stream, navigate to the ``work`` tab, this is where the whole team can organise the work they intend to do. 
-
-1.  Click the ``New Stream`` button to add your first stream.
-2.  Give your stream a name and provide more description about what the stream is about.
-
-
-![Create a stream](/assets/images/create-new-stream.gif "new stream")
+<image placeholder>
 
 !!! note "streams are for everyone"
-    Everyone can manage their work here including non-techinical people. Coding streams will be linked to a repository while and other streams can be treated as normal tasks. This is will help teams to organise work using on central tool.
+    Everyone can manage their work using stream, including non-techinical people. Coding streams will be linked to a repository while, other streams can be treated as normal tasks with no repository attached to them.
 
-You will notice that your first repository has the "Created" status. When you are ready to start working you can change the status of the task accordingly.
+You will notice that create repositories they get organised under the "Created" status. When you are ready to start working you can change the status of the stream.
 
-![Stream list](/assets/images/stream-list.png "stream list")
+<image placeholder>
 
+## Update stream status
 
-!!! stream "Your first stream"
-
-  === "Create your first stream"
-
-      ``` markdown title="List, unordered"
-      * Sed sagittis eleifend rutrum
-      * Donec vitae suscipit est
-      * Nulla tempor lobortis orci
-      ```
-
-  === "Assign a repo to a stream"
-
-      ``` markdown title="List, ordered"
-      1. Sed sagittis eleifend rutrum
-      2. Donec vitae suscipit est
-      3. Nulla tempor lobortis orci
-      ```
-
-  === "Assign a stream to a team member"
-
-      ``` markdown title="List, ordered"
-      1. Sed sagittis eleifend rutrum
-      2. Donec vitae suscipit est
-      3. Nulla tempor lobortis orci
-      ```
-
-      ```
->>>>>>>>> LE0001-setup-the-environmen

@@ -1,38 +1,28 @@
 # How to install Uju
 
 ## Introduction
-This guide contains instruction outlined to successfully install Uju on your local machine.
+Uju is an automatic version control system designed specifically to work with the Lepsta Platform. Instead of running many commands in order to push your code to a code hosting platform, Uju actively listens to your changes and automatically synchronise/push them to the Lepsta Platform as you work.
 
+## Concepts
+* [Repository](docs/pages/references/concepts/repository.md)
 
-## Outline of the objective of the article
-
-!!! Abstract "What is Uju"
-  Uju is a version control server designed specifically to work with the Lepsta Platform. You need to have it installed to contribute to your repositories and to collaborate with Lepsta platform.
+* [Stream](docs/pages/references/concepts/streams.md)
 
 ## Requirements
-  + A Lepsta account.
-  + Linux or Mac operating system. (Recommended)
-  + Windows operating system.
-  + Basic Knowledge of the command line.
+  + A Lepsta account;
+  + A device running either Linux OS, Windows OS or macOS;
+  + Basic Knowledge of the command line. 
 
-Now that we understand what Uju is and what requirements we need, you can go ahead and click on add a device to proceed.
- 
+## Step-by-step Guide
 
-## Brief definition of important concepts (linking them to the reference section)
-[Repository](docs/pages/references/concepts/repository.md).
-[Stream](docs/pages/references/concepts/streams.md).
-[Uju] (docs/pages/references/concepts/uju.md)
- 
+### 1. Install Uju 
 
-## Guide (step-by-step)
-### Installation instructions
-### Linux or MacOs
+#### Linux or MacOs
 
-  Depending on your operating system, you might have `curl` or `wget` preinstalled.
-  You can install Uju by running one of these commands on your terminal.
+  Depending on your operating system, you might have `curl` or `wget` pre-installed. You can install Uju by running one of these commands on your terminal.
 
 
-    ``` title="Install Uju"
+    ``` 
     curl https://lepsta.tech/get | sh
     ```
 
@@ -42,30 +32,26 @@ Now that we understand what Uju is and what requirements we need, you can go ahe
     wget -qO- https://lepsta.tech/get | sh
     ```
 
+
   You can also install the Lepsta desktop app. See image below......
 
 
 
-### Windows
+#### Windows
 
 Download the setup file and click on it to install.
         
-
+### 2. Authorising Uju
 For you to start working on your Lepsta repositories Uju needs to have access to your Lepsta Platform account. 
-To authorize Uju, you need to login from the commandline interface. Simply run the following command, and you are good to go:
 
-```
-uju login -u <username>
-```
-OR 
+* Desktop App - Upon downloading the app. Enter the same credentials you used on the Platform. This will link the desktop app with the Platform.
 
-Enter your username after promted by uju;
+* Terminal - To authorize Uju on the commandline interface, simply run this command `uju login -u <username>` and your password
 
 ![Install Uju](https://static.lepsta.tech/docs-assets/install-to-uju.gif "Install Uju")
  
-If you have reached this point, you have successfully created a new repository. 
-If that is not the case, see …. For troubleshooting
-
+ ## Reflection
+If you have reached this point, you have successfully created a installed Uju. To test this on the commandline interface run this command `uju`. If this is successful you should see a list of Uju commands.
 
 ## Recommended next steps
 [Working with streams](pages/guides/working-with-streams.md)

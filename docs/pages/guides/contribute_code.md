@@ -1,6 +1,6 @@
-# Introduction (should outline the problem/task)
+# Introduction
 
-The end goal of using Lepsta is to contribute code, and Lepsta aims to help development teams do so collaboratively and efficiently with minimum code conflicts,misunderstanding and loss of code imposed by human error.
+The end goal of using Lepsta is to contribute code, and Lepsta aims to help development teams do so collaboratively and efficiently with no code conflicts, misunderstanding and loss of code imposed by human error.
 
 ## Requirements
 To start contributing code ensure the following is checked:
@@ -11,12 +11,12 @@ To start contributing code ensure the following is checked:
 4. You have downloaded and logged in on the Lepsta Desktop app
 5. You must have someone to collaborate with (recommended but optional)
 
-If you check all the above then you can continue reading this article, if not, please refer to the[getting started manual](pages/tutorials/getting_started.md) for a tutorial that will take you from setting up your account to getting activated.
+If you check all the above then you can continue reading this article, if not, please refer to the[getting started manual](pages/tutorials/getting_started.md) for a tutorial that will take you from setting up your account to contributing code.
 
 ## Concepts
+![What are streams](docs/pages/references/concepts/stream.md)
 
-
-## Guide (step-by-step)
+## Step-by-step Guide 
 
 ### Pre-steps
 1. Log in to your Lepsta account
@@ -27,25 +27,24 @@ If you check all the above then you can continue reading this article, if not, p
 
 <image placeholder>
 
-6. Click on ``start coding`` 
-7. Click on ``edit code locally``. This will trigger Uju to switch to this stream locally
+6. Click on `start coding` 
+7. Click on `edit code locally`. This will trigger Uju to switch to this stream locally
 
 ### Contribute code
 Once you have done the above you can now open the Lepsta Desktop app and search for your repository
 
-1. Click on ``open`` with Visual Studio Code
+1. Click on `open` with Visual Studio Code
 2. At this point you should start contributing code
 
-if you see your changes reflecting on the Platform online it means you can successfully contributed code. But it doesn't end here, as a code contributor you are required to:
+if you see your changes reflecting on the Platform online it means you can successfully contributed code. But it doesn't end here, as a code contributor you need to:
 
-### Get your code reviewed or you can reviewed
+### Get your code reviewed or you can review others code
 
-First change your stream review status to ``Review``. Now that you have contributed your code, it is best to get your team to review your work to avoid rework. Go ahead and invite code reviewers and hear what they got to say:
+First, move your stream to `Review`. Now that you have contributed your code, it is best to get your someone to review your work to avoid rework. Go ahead and invite code reviewers and hear what they got to say about your work:
 
 <image spaceholder>
 
-Your fellow collaborators will comment directly on your lines of code and you can reply and have a discussion thread. They can click on ``Looks good`` to finalise their reviews. When you are happy with their input you can then resolve the comments.  
-
+Your fellow collaborators will be able to comment directly on your lines of code and you can reply and have a discussion thread. They can click on `Looks good` check button at the bottom of your file in order to finalise their reviews. When you are happy with their input you can then resolve the comments.  
 
 
 ## Reflection
