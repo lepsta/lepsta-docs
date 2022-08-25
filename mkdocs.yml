@@ -3,95 +3,65 @@ site_name: Lepsta Documentation
 # Page tree
 nav:
   - Home:
-    - index.md
-    - How Lepsta works: pages/lepsta/how-lepsta-works.md
+      - index.md
+      - How Lepsta works: pages/lepsta/how-lepsta-works.md
   - Getting started:
-    - Setup: pages/setup.md
-    - Your first repository: pages/quick-start/your-first-repository.md
-    - How streams work: pages/quick-start/how-streams-works.md
+      - Setup: pages/setup.md
+      - Your first repository: pages/quick-start/your-first-repository.md
+      - How streams work: pages/quick-start/how-streams-works.md
   - Guides:
-    - Create a branch: pages/guides/create-a-branch.md
-    - Create and Mount a repo: pages/guides/create-and-mount-repo.md
-    - Create a workspace: pages/guides/create-a-workspace.md
-    - Create and activate Lepsta: pages/guides/create-and-activate-lepsta.md
-    - Manage Repositories: pages/guides/manage-repositories.md
-    - Manage Streams: pages/guides/manage-streams.md
-    - How to install Uju: pages/guides/install-uju.md
-  - Uju:
-    - What is Uju?: pages/uju/what-is-uju.md
-    - CLI: 
-      - uju: pages/uju/cli/uju.md
-      - uju apply: pages/uju/cli/uju_apply.md
-      - uju cat: pages/uju/cli/uju_cat.md
-      - uju changes: pages/uju/cli/uju_changes.md
-      - uju commit: pages/uju/cli/uju_commit.md
-      - uju config: pages/uju/cli/uju_config.md
-      - uju diff: pages/uju/cli/uju_diff.md
-      - uju discard: pages/uju/cli/uju_discard.md
-      - uju download: pages/uju/cli/uju_download.md
-      - uju export: pages/uju/cli/uju_export.md
-      - uju init: pages/uju/cli/uju_init.md
-      - uju log: pages/uju/cli/uju_log.md
-      - uju login: pages/uju/cli/uju_login.md
-      - uju logout: pages/uju/cli/uju_logout.md
-      - uju ls: pages/uju/cli/uju_ls.md
-      - uju merge: pages/uju/cli/uju_merge.md
-      - uju repo: pages/uju/cli/uju_repo.md
-      - uju repos: pages/uju/cli/uju_repos.md
-      - uju rm: pages/uju/cli/uju_rm.md
-      - uju state: pages/uju/cli/uju_state.md
-      - uju states: pages/uju/cli/uju_states.md
-      - uju stats: pages/uju/cli/uju_stats.md
-      - uju switch: pages/uju/cli/uju_switch.md
-      - uju system: pages/uju/cli/uju_system.md
-      - uju token: pages/uju/cli/uju_token.md
-      - uju update: pages/uju/cli/uju_update.md
-      - uju validate: pages/uju/cli/uju_validate.md
+      - Create a branch: pages/guides/create-a-branch.md
+      - Create and Mount a repo: pages/guides/create-and-mount-repo.md
+      - Create a workspace: pages/guides/create-a-workspace.md
+      - Create and activate Lepsta: pages/guides/create-and-activate-lepsta.md
+      - Manage Repositories: pages/guides/manage-repositories.md
+      - Manage Streams: pages/guides/manage-streams.md
+      - How to install Uju: pages/guides/install-uju.md
   - Reference:
-    - Core concepts:
-      - Repository: pages/references/concepts/repository.md
-      - Branch: pages/references/concepts/branch.md
-      - Stream: pages/references/concepts/stream.md
-      - Revision: pages/references/concepts/revision.md
-      - Commit: pages/references/concepts/commit.md
-      - Changeset: pages/references/concepts/changeset.md
-    - Uju:
-      - What is Uju?: pages/uju/what-is-uju.md
-      - CLI: 
-        - uju: pages/uju/cli/uju.md
-        - uju apply: pages/uju/cli/uju_apply.md
-        - uju cat: pages/uju/cli/uju_cat.md
-        - uju changes: pages/uju/cli/uju_changes.md
-        - uju commit: pages/uju/cli/uju_commit.md
-        - uju config: pages/uju/cli/uju_config.md
-        - uju diff: pages/uju/cli/uju_diff.md
-        - uju discard: pages/uju/cli/uju_discard.md
-        - uju download: pages/uju/cli/uju_download.md
-        - uju export: pages/uju/cli/uju_export.md
-        - uju init: pages/uju/cli/uju_init.md
-        - uju log: pages/uju/cli/uju_log.md
-        - uju login: pages/uju/cli/uju_login.md
-        - uju logout: pages/uju/cli/uju_logout.md
-        - uju ls: pages/uju/cli/uju_ls.md
-        - uju merge: pages/uju/cli/uju_merge.md
-        - uju repo: pages/uju/cli/uju_repo.md
-        - uju repos: pages/uju/cli/uju_repos.md
-        - uju rm: pages/uju/cli/uju_rm.md
-        - uju state: pages/uju/cli/uju_state.md
-        - uju states: pages/uju/cli/uju_states.md
-        - uju stats: pages/uju/cli/uju_stats.md
-        - uju switch: pages/uju/cli/uju_switch.md
-        - uju system: pages/uju/cli/uju_system.md
-        - uju token: pages/uju/cli/uju_token.md
-        - uju update: pages/uju/cli/uju_update.md
-        - uju validate: pages/uju/cli/uju_validate.md
+      - Core concepts:
+          - Repository: pages/references/concepts/repository.md
+          - Branch: pages/references/concepts/branch.md
+          - Stream: pages/references/concepts/stream.md
+          - Revision: pages/references/concepts/revision.md
+          - Commit: pages/references/concepts/commit.md
+          - Changeset: pages/references/concepts/changeset.md
+      - Uju:
+          - What is Uju?: pages/uju/what-is-uju.md
+          - CLI:
+              - uju: pages/uju/cli/uju.md
+              - uju apply: pages/uju/cli/uju_apply.md
+              - uju cat: pages/uju/cli/uju_cat.md
+              - uju changes: pages/uju/cli/uju_changes.md
+              - uju commit: pages/uju/cli/uju_commit.md
+              - uju config: pages/uju/cli/uju_config.md
+              - uju diff: pages/uju/cli/uju_diff.md
+              - uju discard: pages/uju/cli/uju_discard.md
+              - uju download: pages/uju/cli/uju_download.md
+              - uju export: pages/uju/cli/uju_export.md
+              - uju init: pages/uju/cli/uju_init.md
+              - uju log: pages/uju/cli/uju_log.md
+              - uju login: pages/uju/cli/uju_login.md
+              - uju logout: pages/uju/cli/uju_logout.md
+              - uju ls: pages/uju/cli/uju_ls.md
+              - uju merge: pages/uju/cli/uju_merge.md
+              - uju repo: pages/uju/cli/uju_repo.md
+              - uju repos: pages/uju/cli/uju_repos.md
+              - uju rm: pages/uju/cli/uju_rm.md
+              - uju state: pages/uju/cli/uju_state.md
+              - uju states: pages/uju/cli/uju_states.md
+              - uju stats: pages/uju/cli/uju_stats.md
+              - uju switch: pages/uju/cli/uju_switch.md
+              - uju system: pages/uju/cli/uju_system.md
+              - uju token: pages/uju/cli/uju_token.md
+              - uju update: pages/uju/cli/uju_update.md
+              - uju validate: pages/uju/cli/uju_validate.md
   - Known issues:
       - This repo is in an inconsistent state: pages/issues/error-this-repo-is-in-an-inconsistent-state.md
       - Changes not showing on the platform: pages/issues/error-changes-not-showing-on-the-platform.md
       - Too many open files: pages/issues/error-too-many-open-files.md
       - Windows Firewall: pages/issues/windwos-firewall.md
   - Changelog:
-    - Changelog: pages/changelog
+      - Changelog: pages/changelog
 
 theme:
   name: material
